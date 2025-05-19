@@ -136,7 +136,7 @@ export default function Home() {
       icon: null,
     },
     {
-      title: 'With Me',
+      title: 'WithMe',
       description: '',
       href: 'https://withme.so/VestralCoaching',
       image: WithMeLogo,
