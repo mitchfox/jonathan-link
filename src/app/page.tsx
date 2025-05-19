@@ -5,7 +5,7 @@ import { Container } from '@/components/Container'
 import {
   InstagramIcon,
 } from '@/components/SocialIcons'
-import { Satisfy } from 'next/font/google'
+import { Bebas_Neue } from 'next/font/google'
 import { FreeTrialBanner } from '@/components/FreeTrial'
 import WithMeLogo from '@/images/photos/withmelogo.png'
 import Jmicufit_img from '../images/photos/Jmicufit_img.jpg'
@@ -15,7 +15,7 @@ import Beyondstengthpctp_img from '../images/photos/Beyondstrengthpctp_img.jpg'
 
 // import MealPlan from '../images/photos/meal_plan.webp'
 
-const satisfy = Satisfy({
+const bebasNeue = Bebas_Neue({
   subsets: ['latin'],
   weight: '400',
   display: 'swap',
@@ -146,7 +146,7 @@ export default function Home() {
 
   return (
     <>
-      <Container className="flex-1 bg-zinc-950 pb-32">
+      <Container className="flex-1 bg-[#000000] pb-32">
         <div className="mx-auto max-w-lg text-center">
           <div className="relative w-full">
             <div className="relative">
@@ -157,18 +157,18 @@ export default function Home() {
                     'linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.95) 75%, #000000 100%)',
                 }}
               />
-              <div className="mx-auto h-[40dvh] sm:mt-12 sm:h-48 sm:w-40 md:h-72 md:w-64">
+              <div className="mx-auto h-[55dvh] sm:mt-12 sm:h-48 sm:w-40 md:h-72 md:w-64">
                 <img
                   src={Jmicufit_img.src}
                   alt="Founders"
-                  className="h-full w-full object-cover object-top sm:rounded-3xl"
+                  className="h-full w-full object-cover object-right-top sm:rounded-3xl"
                 />
               </div>
             </div>
 
             <div className="relative z-30">
               <h1
-                className={`${satisfy.className} -mt-16 mb-4 text-4xl leading-none text-white sm:mt-6 sm:text-5xl`}
+                className={`${bebasNeue.className} -mt-16 mb-4 text-7xl leading-none text-white sm:mt-6 sm:text-8xl`}
               >
                Jmicufit
 
